@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Full Stack Developer</h1>
+        <h3><u>Registration Form</u></h3>
+    </header>  
+    <br> 
+    <main>
+        <form>
+            <label><span>*</span>Firstname</label>
+            <input type="text" required>
+
+            <label>Lastname</label>
+            <input type="text">
+
+            <label><span>*</span>Password</label>
+            <input type="password" title="Must contain at least one number and one uppercase and one lowercase and one special character and at least 8 or more characters">
+
+            <label><span>*</span>Contact</label>
+            <input type="tel" placeholder="Format: 123-456-2220" title="10 number"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required>
+
+            <label><span>*</span>Age</label>
+            <input type="number" required>
+
+            <label><span>*</span>Email</label>
+            <input type="email" title="Please enter a valid email address"
+            pattern="[a-zA-Z0-9!#$%&'*+/=?^_'{|}.-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*"
+            required>
+
+            <label>Gender</label>
+            <input type="radio" name="Gender" >Male
+            <input type="radio" name="Gender" >Female
+
+            <label>Language</label>
+            <input type="checkbox" name="Language" >Tamil
+            <input type="checkbox" name="Language" >English
+
+            <label>City</label>
+            <select>
+                <option>Select your city</option>
+                <option>Madurai</option>
+                <option>Chennai</option>
+                <option>Coimbatore</option>
+                <option>Erode</option>
+                <option>Trichy</option>
+            </select>
+            <br>
+
+            <input type="submit" value="Register">
+    
+        </form> 
+</body>
+</html>
