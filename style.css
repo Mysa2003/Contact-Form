@@ -1,0 +1,64 @@
+*
+{
+    Margin:0;
+    Padding:0;
+}
+body
+{
+    line-height: 1.6;
+    background-color:rgb(250, 194, 250);
+}
+header{
+    background-color: rgb(176, 22, 241);
+    color:white;
+    padding: 20px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover{
+    color:white;
+}
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: scale-down; 
+    border: 3px solid rgb(20, 20, 231);
+    margin: 20px 20px;
+}
+#about div {
+    margin-left: 30px;
+    text-align: justify;
+}
+.mycontent, .Projects
+{
+    margin-left: 20px;
+}
+.Projects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(56, 56, 56);
+    transition: transform 0.2s;
+}
+.project-card:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    /* zoom */
+}
+.project-card a {
+    color: rgb(31, 9, 226);
+    text-decoration: none;
+    font-weight: bold;
+}
